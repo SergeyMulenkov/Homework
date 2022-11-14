@@ -23,5 +23,4 @@ else
     min = number1;
 }
 
-Console.WriteLine("max = " + max + " и " + "min = " + min);
-
+Console.WriteLine("max = " + max + " , min = " + min +"");
