@@ -12,7 +12,10 @@ int Elements(int[] arr)
     int numbers = 0;
     for (int i = 0; i < arr.Length; i++)
     {
-        if (arr[i] > 0) numbers++;
+        if (arr[i] > 0)
+        {
+            numbers++;   
+        } 
     }
     return numbers;
 }
